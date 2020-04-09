@@ -200,7 +200,7 @@ public final class DemoApplication extends WebFrame
         information.changeFontSize ( 3 );
         information.setLanguage (
                 "demo.content.information.overlay.empty",
-                version.name (), version.toString (),
+                version.name ()+"测试了", version.toString (),
                 SystemUtils.getJavaName (),
                 SystemUtils.getJavaVersion ().versionString (), SystemUtils.getOsArch ()
         );
